@@ -41,16 +41,6 @@ No frameworks. No hidden abstractions.
 
 ---
 
-## 📂 Repository Structure
-
-VolexScratch/
-├── index.html   # Interface & intent layer
-├── run.py       # Execution & control layer
-└── README.md    # Documentation
-
-
----
-
 ## 🌐 index.html
 
 ### Role
