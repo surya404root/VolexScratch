@@ -3,7 +3,7 @@
 
 ---
 
-🔥 Advanced Technical Documentation
+## 🔥 Advanced Technical Documentation
 
 > A from-scratch, security-minded learning project explaining execution flow, triggers, and system design.
 
@@ -12,7 +12,7 @@
 
 ---
 
-🧾 Project Identity & Branding
+## 🧾 Project Identity & Branding
 
 Project Name: VolexScratch
 Author: surya404root
@@ -24,19 +24,19 @@ This repository is intentionally minimal and transparent, following how security
 
 ---
 
-📌 Executive Summary
+## 📌 Executive Summary
 
 VolexScratch demonstrates how programs actually start, run, and stop.
 
 It focuses on:
 
-Execution entry points
+• Execution entry points
 
-Trigger-based logic
+• Trigger-based logic
 
-Frontend vs backend separation
+• Frontend vs backend separation
 
-Safe system reasoning
+• Safe system reasoning
 
 
 No frameworks. No hidden abstractions.
@@ -66,7 +66,7 @@ High-Level Design
 
 ---
 
-📂 Repository Structure
+## 📂 Repository Structure
 
 VolexScratch/
 ├── index.html   # Interface & intent layer
@@ -76,19 +76,19 @@ VolexScratch/
 
 ---
 
-🌐 index.html
+## 🌐 index.html
 
-Role
+### Role
 
 index.html is the interface layer and first interaction point.
 
 Responsibilities:
 
-Display content
+• Display content
 
-Capture user intent
+• Capture user intent
 
-Trigger frontend events
+• Trigger frontend events
 
 
 It does not execute system logic.
