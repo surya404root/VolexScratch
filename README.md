@@ -1,8 +1,5 @@
 # VolexScratch
 
-
----
-
 ## 🔥 Advanced Technical Documentation
 
 > A from-scratch, security-minded learning project explaining execution flow, triggers, and system design.
