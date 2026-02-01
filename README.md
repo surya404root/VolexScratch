@@ -44,28 +44,6 @@ No frameworks. No hidden abstractions.
 
 ---
 
-🧠 System Architecture
-
-High-Level Design
-
-+-------------+        intent        +----------------+
-|    User     |  ───────────────▶  |  index.html    |
-|  (Human)    |                    |  Frontend UI  |
-+-------------+                    +----------------+
-                                         |
-                                         | trigger
-                                         v
-                                  +----------------+
-                                  |    run.py      |
-                                  | Logic Engine  |
-                                  +----------------+
-                                         |
-                                         v
-                                   Output / Action
-
-
----
-
 ## 📂 Repository Structure
 
 VolexScratch/
@@ -96,7 +74,7 @@ It does not execute system logic.
 
 ---
 
-HTML Execution Flow
+### HTML Execution Flow
 
 Browser Opens File
         |
@@ -113,25 +91,25 @@ DOM Created
 
 ---
 
-HTML Trigger Types
+### HTML Trigger Types
 
-Page Load Trigger
+#### Page Load Trigger
 
-Runs automatically on open
+• Runs automatically on open
 
-Used for initialization
-
-
-Event Trigger
-
-Button clicks
-
-Form submission
+• Used for initialization
 
 
-Script Trigger
+#### Event Trigger
 
-JavaScript execution
+• Button clicks
+
+• Form submission
+
+
+#### Script Trigger
+
+• JavaScript execution
 
 
 Limitations: HTML cannot run Python or access the OS.
@@ -139,25 +117,25 @@ Limitations: HTML cannot run Python or access the OS.
 
 ---
 
-🐍 run.py
+## 🐍 run.py
 
-Role
+### Role
 
 run.py is the execution and control layer.
 
 It manages:
 
-Logic flow
+• Logic flow
 
-Conditions
+• Conditions
 
-Execution order
+• Execution order
 
 
 
 ---
 
-Python Execution Lifecycle
+### Python Execution Lifecycle
 
 Command Issued
    |
@@ -179,60 +157,60 @@ Program Ends
 
 ---
 
-⚙️ Python Trigger Mechanisms
+## ⚙️ Python Trigger Mechanisms
 
-Entry Point Trigger
-
+### Entry Point Trigger
+```
 if __name__ == "__main__":
     main()
-
+```
 Prevents unintended execution when imported.
 
 
 ---
 
-Function Trigger
-
+### Function Trigger
+```
 def execute():
     print("Executed")
 
 execute()
-
+```
 Used for modular logic.
 
 
 ---
 
-Conditional Trigger
-
+### Conditional Trigger
+```
 if user_input == "start":
     run()
-
+```
 Used for decision boundaries.
 
 
 ---
 
-Input Trigger
-
+### Input Trigger
+```
 command = input("Enter command: ")
-
+```
 Common in CLI tools.
 
 
 ---
 
-Time Trigger
-
+### Time Trigger
+```
 import time
 time.sleep(2)
-
+```
 Used for scheduling and control.
 
 
 ---
 
-🔄 Frontend vs Backend Boundary
+## 🔄 Frontend vs Backend Boundary
 
 User → HTML (Untrusted Input) → Python (Validation & Execution)
 
@@ -241,13 +219,13 @@ This mirrors real security trust boundaries.
 
 ---
 
-🛡️ Security & Ethics
+## 🛡️ Security & Ethics
 
-No permission bypass
+• No permission bypass
 
-No data harvesting
+• No data harvesting
 
-No exploitation
+• No exploitation
 
 
 Educational use only.
@@ -255,33 +233,22 @@ Educational use only.
 
 ---
 
-📈 Learning Outcomes
+## 📈 Learning Outcomes
 
-Execution-flow understanding
+• Execution-flow understanding
 
-Trigger-based reasoning
+• Trigger-based reasoning
 
-System boundary awareness
-
-
-
----
-
-🚀 Future Scope
-
-Local server integration
-
-Request/response model
-
-Logging and monitoring
+• System boundary awareness
 
 
 
 ---
 
-👤 Author
+## 👤 Author
 
 Surya (surya404root)
+
 Security Learner • Developer
 
 GitHub: https://github.com/surya404root
@@ -289,7 +256,7 @@ GitHub: https://github.com/surya404root
 
 ---
 
-⭐ Final Note
+## ⭐ Final Note
 
 > If you understand execution, you control complexity.
 
